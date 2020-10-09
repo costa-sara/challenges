@@ -3,7 +3,7 @@
 For this challenge you will need to authenticate to our OAuth2 server and create an API and a client application.
 Both are expected to be created using .Net Core 3.1.
 We estimate that this challenge will need 15-20h to be completed.
-We will evaluate your project organization, coding style and completedness.
+We will evaluate your project organization, coding style and completeness.
 
 If you are having problems understanding the challenge or implementing any part of it, feel free to contact us.
 
