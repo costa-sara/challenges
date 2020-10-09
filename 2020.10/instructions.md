@@ -10,6 +10,7 @@ If you are having problems understanding the challenge or implementing any part 
 When you have a solution that you feel confortable with, create a PR for this repo with your solution under 2020.10 > <YOUR_USERNAME>.
 
 ## Objective
+
 Implement a solution that provides both a frontend and backend.
 
 The frontend should allow the user to authenticate in our OAuth2 server and present a screen where the user can execute the encryption of the returned data and send it back to the api, which then should store the encrypted data on the database.
@@ -17,6 +18,7 @@ The frontend should allow the user to authenticate in our OAuth2 server and pres
 ## Authentication
 
 * Our server for you to get your auth token is https://squirtle.challenges.kenbi.systems/.
+* Our server is restricting authentication only from clients working on `http://localhost:5001`.
 
 ## Database
 
@@ -25,7 +27,7 @@ The frontend should allow the user to authenticate in our OAuth2 server and pres
 
 ## API
 
-* Your API must be configured to be protected by our OAuth2 server. For that purpose we will provide you privately the secret that you must use in your API configuration.
+* Your API must be configured to be protected by our OAuth2 server. For that purpose we will provide you privately the secret that you must use in your API configuration to identify as `testAPI`.
 * You must implement a GET action for any given controller that returns the string "**alive**". This action must be unsecured.
 * You must implement a GET action for any given controller that returns the string "**unencrypted_value**". This action must be secured.
 * You must implement a POST action for any given controller that receives a processed string and saves it to the database via the means you consider necessary. This action must be secured.

@@ -1,6 +1,5 @@
 # Tips
 
-* A connectionstring to a Postgres database follows the format `host=<SERVER>;database=<DB_NAME>;user id=<USER>;Password=<PASS>;Command Timeout=0`
 * You can easily find a way to perform a SHA256 hash to a string.
 * For your token claims to be named correctly you need to apply the following at the start of `ConfigureServices`.
   
