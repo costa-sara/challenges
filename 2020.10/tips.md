@@ -1,6 +1,6 @@
 # Tips
 
-* You can easily find a way to perform a SHA256 hash to a string.
+* You can easily find a way to perform a SHA256 hash to a string. Try https://www.c-sharpcorner.com/article/compute-sha256-hash-in-c-sharp/.
 * For your token claims to be named correctly you need to apply the following at the start of `ConfigureServices`.
   
   ```csharp
