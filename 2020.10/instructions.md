@@ -9,6 +9,11 @@ If you are having problems understanding the challenge or implementing any part 
 
 When you have a solution that you feel confortable with, create a PR for this repo with your solution under 2020.10 > <YOUR_USERNAME>.
 
+## Objective
+Implement a solution with a frontend and backend system. 
+
+The frontend should allow the user to authenticate in our OAuth2 server and present a screen where the user can execute the encryption of the returned data and send it back to the api, witch then should store the encrypted data on the database.
+
 ## Authentication
 
 * Our server for you to get your auth token is https://squirtle.challenges.kenbi.systems/.
