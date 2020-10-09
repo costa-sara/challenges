@@ -33,6 +33,9 @@ The frontend should allow the user to authenticate in our OAuth2 server and pres
 ## Client App
 
 * Your client app must be able to login a user and call on demand your API endpoints to perform the actions described.
-* These are the scopes we expect you to need to use our OAuth2 server: "_openid_", "_profile_", "_offline_access_", "_testAPI_".
-* After login you must call your GET endpoint to retrieve the string from your API.
-* Then you must create an SHA256 hash of that string and POST it to your API.
+* You need to connect with a standard OpenIDConnect authentication for a `code` response type and using PKCE.
+* These are the scopes we expect you to need to use our OAuth2 server: `openid`, `profile`, `offline_access`, `testAPI`.
+* After login you must show a web page where we can click a button that:
+  * Calls your GET endpoint to retrieve the string from your API.
+  * Creates an SHA256 hash of that string.
+  * POSTs it to your API.
