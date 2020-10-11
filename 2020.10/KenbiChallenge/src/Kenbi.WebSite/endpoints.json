@@ -1,0 +1,11 @@
+{
+  "ApiEndpoints": {
+    "BaseUrl": "https://localhost:60051/",
+    "ClientName": "APIClient",
+    "Challenge": {
+      "GetAuth": "api/challenge/protected",
+      "GetUnAuth": "api/challenge/unprotected",
+      "Post": "api/challenge/encrypt"
+    }
+  }
+}
